@@ -1,7 +1,7 @@
 import React from 'react'
 
 import { Routes, Route } from "react-router-dom";
-import { LoginPage } from '../auth/pages';
+import { AuthRoutes } from '../auth/routes/AuthRoutes';
 import { HomeRoutes } from '../home';
 
 
@@ -10,8 +10,10 @@ export const AppRouter = () => {
         <>
 
             <Routes>
+                {/* Login y registro */}
+                <Route path="/auth/*" element={<AuthRoutes />} />
 
-                <Route path="login" element={<LoginPage />} />
+                {/* Huella de carbono */}
                 <Route path="/*" element={<HomeRoutes />} />
 
             </Routes>

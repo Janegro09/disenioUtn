@@ -15,7 +15,7 @@ export const HomeRoutes = () => {
                 <Route path="vincularTrabajador" element={<VincularTrabajadorPage />} />
                 <Route path="visualizarReporte" element={<VisualizarReportePage />} />
 
-                <Route path="/" element={<Navigate to='/calculo' />} />
+                <Route path="/" element={<Navigate to='/calculoHC' />} />
 
             </Routes>
         </div>

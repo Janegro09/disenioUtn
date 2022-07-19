@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom';
 
 import { HuellaCarbonoApp } from './HuellaCarbonoApp';
-import './index.css';
+import './style.css';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
