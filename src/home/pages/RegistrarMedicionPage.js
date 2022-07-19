@@ -4,7 +4,7 @@ import { HeroesList } from '../components/HeroesList'
 export const RegistrarMedicionPage = () => {
   return (
     <>
-        <h1>RegistrarMedicionPage</h1>
+        <h1>Registrar Medicion</h1>
         <hr />
 
         <HeroesList 

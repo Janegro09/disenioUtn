@@ -4,7 +4,7 @@ import { HeroesList } from '../components/HeroesList'
 export const VisualizarReportePage = () => {
   return (
     <>
-    <h1>Marvel</h1>
+    <h1>Visualizar Reporte</h1>
     <hr />
 
     <HeroesList 

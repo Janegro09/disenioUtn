@@ -2,8 +2,11 @@ import React from 'react'
 
 export const VincularTrabajadorPage = () => {
   return (
-    <h1>
-        Search Page
-    </h1>
+    <>
+        <h1>
+            Vincular Trabajador
+        </h1>
+        <hr />
+    </>
     )
 }
