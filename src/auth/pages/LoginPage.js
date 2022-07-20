@@ -11,6 +11,12 @@ export const LoginPage = () => {
         })
     }
 
+    const getRegister = () => {
+        navigate('/auth/register', {
+            replace:true
+        })
+    }
+
     return (
     <div className='container mt-5'>
         <h1>Login</h1>
@@ -22,6 +28,15 @@ export const LoginPage = () => {
         >
             Login
         </button>
+
+        <br/>
+
+        <a 
+            className='btn-primary'
+            onClick={getRegister}
+        >
+            Crear cuenta
+        </a>
 
     </div>
 
